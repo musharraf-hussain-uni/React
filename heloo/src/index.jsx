@@ -76,7 +76,7 @@ fundamental concepts and techniques of HTML, CSS and PHP.</h5>
 <h3 className='rihgt-h3'>SMIT</h3>
 <h3 className='rihgt-h3'><strong>Web and Mobile App Development</strong></h3>
 <h5>This course offers a comprehensive introduction to web development, encompassing the
-essential principles and practices of HTML, CSS, JavaScript, Firebase, Express server, and
+essential principles and practices of HTML, CSS, JavaScript, Firebase, Express server, MongoDB, NodeJs, ReactJs
 GitHub integration. <br /><br />
 In this duration, created a project related to real estate and cover all the basic features
 like login and signup. buying and purchasing section with agent detail and store all the

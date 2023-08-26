@@ -1,0 +1,171 @@
+/* style.css */
+body{
+    background-color: black;
+}
+/* Container */
+.cv-container {
+    display: flex;
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Left Panel */
+  .left-panel {
+    flex: 0 ;
+    background-color: #032955; /* Grey background */
+    padding: 14px;
+}
+
+.left-panel-inner {
+    width: 300px;
+    margin: 15px; /* Center the content horizontally */
+}
+
+.profile-picture img{
+    /* Add your styling for the profile picture */
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding-left: 0 10px;
+}
+
+/* Profile picture styles */
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+  /* Right Panel */
+  .right-panel {
+    flex: 1;
+    background-color: #fff; /* White background */
+    padding: 29px;
+    position: relative;
+  }
+/* Vertical Line */
+.vertical-line {
+    position: absolute;
+    top: 10;
+    left: 2%; /* Place the line in the center */
+    transform: translateX(-50%); /* Center the line */
+    width: 1px;
+    height: 44%;
+    background-color: #032955; /* Line color */
+    z-index: 1; /* Move the line behind the panel content */
+  }
+
+
+/* Circle */
+.circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #032955; /* Circle outline color */
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Place the circles above the line */
+  }
+  
+  /* Circle positions */
+  .circle.circle1 {
+    top: 43vh;
+    left: 14px; /* Adjust the position as needed */
+  }
+  
+  .circle.circle2 {
+    top: 67.5vh; /* Center vertically */
+    left: 14px; /* Adjust the position as needed */
+  }
+  
+  .circle.circle3 {
+    top: 100vh;
+    left: 14px; /* Adjust the position as needed */
+  }
+  
+  .right-panel-inner {
+    max-width: 3000px; /* Limit the content width */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  /* Heading styles */
+  h1, h2, h3 ,.left-a{
+    color: #fff;
+  }
+  h5{
+    font-weight: 100;
+    
+  }
+  .name{
+    font-size: 45px;
+    text-align: center;
+    line-height: 10px;
+    color: #063872;
+  }
+.slogan{
+    color: #063872;
+    text-align: center;
+    font-size: 20px;
+}
+
+  /* Paragraph styles */
+  p {
+    color: #dfdbdb;
+    line-height: 20px;
+  }
+  a{
+    text-decoration: none !important ;
+    color: #032955;
+  }
+  /* List styles */
+  ul {
+    padding-left: 0;
+    margin-top: 10px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    color: #dfdbdb;
+    margin-left: 15px;
+}
+  .quali{
+    font-size: 13px;
+  }
+  .study{
+    font-size: 20px;
+  }
+
+  .refername, .right-p, .right-h2, .rihgt-h3 {
+    color: #032955;
+  }
+  .right-li{
+    color: black;
+    font-size: 13px;
+  }
+
+  /* Add media queries below */
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .cv-container {
+      flex-direction: column; /* Stack panels vertically */
+    }
+    
+    .left-panel {
+      flex: 1; /* Take full width */
+    }
+    
+    .right-panel {
+      flex: 1; /* Take full width */
+      margin-top: 20px; /* Add some space between panels */
+    }
+    .name{
+        font-size: 35px;
+        text-align: center;
+        line-height: 30px;
+        color: #063872;
+      }
+  }
